@@ -7,8 +7,6 @@ module.exports = merge(config, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    open: true,
-    hot: true,
     client:
     {
       logging: 'none',
